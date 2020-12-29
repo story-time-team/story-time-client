@@ -9,6 +9,8 @@ import SignUp from './components/SignUp/SignUp'
 import SignIn from './components/SignIn/SignIn'
 import SignOut from './components/SignOut/SignOut'
 import ChangePassword from './components/ChangePassword/ChangePassword'
+import Home from './components/Home/Home'
+import WhatToRead from './components/WhatToRead/WhatToRead'
 
 class App extends Component {
   constructor () {
@@ -64,6 +66,12 @@ class App extends Component {
           )} />
           <AuthenticatedRoute user={user} path='/change-password' render={() => (
             <ChangePassword msgAlert={this.msgAlert} user={user} />
+          )} />
+          <Route exact path='/' render={() => (
+            <Home msgAlert={this.msgAlert} setUser={this.setUser} />
+          )} />
+          <Route user={user} exact path='/what-to-read' render={() => (
+            <WhatToRead msgAlert={this.msgAlert} user={user} />
           )} />
         </main>
       </Fragment>
