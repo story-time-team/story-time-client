@@ -78,7 +78,7 @@ class App extends Component {
           <Route user={user} exact path='/what-to-read' render={() => (
             <WhatToRead msgAlert={this.msgAlert} user={user} />
           )} />
-          <Route user={user} path='/danny-meadow' render={() => (
+          <Route user={user} exact path='/danny-meadow' render={() => (
             <DannyMeadow msgAlert={this.msgAlert} user={user} />
           )} />
           <Route user={user} path='/peter' render={() => (
