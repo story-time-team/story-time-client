@@ -11,6 +11,7 @@ import SignOut from './components/SignOut/SignOut'
 import ChangePassword from './components/ChangePassword/ChangePassword'
 import Home from './components/Home/Home'
 import WhatToRead from './components/WhatToRead/WhatToRead'
+import ShowBooks from './components/ShowBooks/ShowBooks'
 
 class App extends Component {
   constructor () {
@@ -72,6 +73,9 @@ class App extends Component {
           )} />
           <Route user={user} exact path='/what-to-read' render={() => (
             <WhatToRead msgAlert={this.msgAlert} user={user} />
+          )} />
+          <Route user={user} exact path='/show-books' render={() => (
+            <ShowBooks msgAlert={this.msgAlert} user={user} />
           )} />
         </main>
       </Fragment>

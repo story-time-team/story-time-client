@@ -20,9 +20,9 @@ const WhatToRead = () => {
       .then(res => {
         setBook(book.push(res.data.records))
         const key = Object.keys(res.data.records)[0]
-        console.log(res.data.records[key].data.title)
+        console.log(res.data.records[key].data.cover.large)
+        console.log(res.data.records[key].data.ebooks[0].preview_url)
         // setBook(res.data.records[key].data)
-        console.log(book)
         return res
       })
       .then(res => setBook({ state: res }))
