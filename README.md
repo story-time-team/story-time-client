@@ -1,1 +1,1 @@
-Sleepy Time Application
+Story Time Application

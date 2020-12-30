@@ -14,7 +14,6 @@ const unauthenticatedOptions = (
     <Nav.Link href="/sign-up">Sign Up</Nav.Link>
     <Nav.Link href="/sign-in">Sign In</Nav.Link>
     <Nav.Link href="/what-to-read">What To Read</Nav.Link>
-    <Nav.Link href="/show-books">Show Book</Nav.Link>
   </Fragment>
 )
 

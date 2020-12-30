@@ -42,7 +42,7 @@ const WhatToRead = () => {
         <a href='/christmas'><img className='cover-image' src={christmas} alt='The Christmas Carol'/></a>
         </div>
         <div className='danny book-images'>
-        <a href='/danny-meadow'><img className='cover-image' src={danny} alt='The Christmas Carol'/></a>
+        <a href='/danny'><img className='cover-image' src={danny} alt='The Christmas Carol'/></a>
         </div>
         <div className='dragon book-images'>
         <a href='/dragon'><img className='cover-image' src={dragon} alt='The Christmas Carol'/></a>
