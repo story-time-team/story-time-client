@@ -7,9 +7,7 @@ import SinglePage from './Single-Page.js'
 function Resume() {
   return (
     <div>
-      <div>
       <SinglePage pdf={mouse} />
-      </div>
     </div>
   )
 
