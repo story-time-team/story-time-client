@@ -1,16 +1,16 @@
 import './ShowBooks.scss'
 import React from 'react'
-import mouse from './pdfBooks/The-Adventures-of-Danny-Meadow-Mouse.pdf'
+import peter from './pdfBooks/The-Tale-of-Peter-Rabbit.pdf'
 // import AllPages from "./AllPages.js"
 import SinglePage from './Single-Page.js'
 
-function ShowBooks() {
+function Peter() {
   return (
     <div className='pdf-viewer'>
-      <SinglePage pdf={mouse} />
+      <SinglePage pdf={peter} />
     </div>
   )
 
 }
 
-export default ShowBooks
+export default Peter

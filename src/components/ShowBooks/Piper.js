@@ -1,16 +1,16 @@
 import './ShowBooks.scss'
 import React from 'react'
-import mouse from './pdfBooks/The-Adventures-of-Danny-Meadow-Mouse.pdf'
+import piper from './pdfBooks/The-Pied-Piper-of-Hamelin.pdf'
 // import AllPages from "./AllPages.js"
 import SinglePage from './Single-Page.js'
 
-function ShowBooks() {
+function Piper() {
   return (
     <div className='pdf-viewer'>
-      <SinglePage pdf={mouse} />
+      <SinglePage pdf={piper} />
     </div>
   )
 
 }
 
-export default ShowBooks
+export default Piper

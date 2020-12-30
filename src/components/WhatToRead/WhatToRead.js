@@ -39,19 +39,19 @@ const WhatToRead = () => {
       <h1>Our books</h1>
       <div className='img-area'>
         <div className='christmas book-images'>
-        <a href='/'><img className='cover-image' src={christmas} alt='The Christmas Carol'/></a>
+        <a href='#christmas'><img className='cover-image' src={christmas} alt='The Christmas Carol'/></a>
         </div>
         <div className='danny book-images'>
-        <a href='/'><img className='cover-image' src={danny} alt='The Christmas Carol'/></a>
+        <a href='#danny-meadow'><img className='cover-image' src={danny} alt='The Christmas Carol'/></a>
         </div>
         <div className='dragon book-images'>
-        <a href='/'><img className='cover-image' src={dragon} alt='The Christmas Carol'/></a>
+        <a href='#dragon'><img className='cover-image' src={dragon} alt='The Christmas Carol'/></a>
         </div>
         <div className='piper book-images'>
-        <a href='/'><img className='cover-image' src={piper} alt='The Christmas Carol'/></a>
+        <a href='#piper'><img className='cover-image' src={piper} alt='The Christmas Carol'/></a>
         </div>
         <div className='peter book-images'>
-        <a href='/'><img className='cover-image' src={peter} alt='The Christmas Carol'/></a>
+        <a href='#peter'><img className='cover-image' src={peter} alt='The Christmas Carol'/></a>
         </div>
       </div>
     </div>

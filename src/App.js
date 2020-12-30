@@ -11,7 +11,11 @@ import SignOut from './components/SignOut/SignOut'
 import ChangePassword from './components/ChangePassword/ChangePassword'
 import Home from './components/Home/Home'
 import WhatToRead from './components/WhatToRead/WhatToRead'
-import ShowBooks from './components/ShowBooks/ShowBooks'
+import DannyMeadow from './components/ShowBooks/DannyMeadow.js'
+import Peter from './components/ShowBooks/Peter.js'
+import Piper from './components/ShowBooks/Piper.js'
+import Christmas from './components/ShowBooks/Christmas.js'
+import Dragon from './components/ShowBooks/Dragon.js'
 
 class App extends Component {
   constructor () {
@@ -74,8 +78,20 @@ class App extends Component {
           <Route user={user} exact path='/what-to-read' render={() => (
             <WhatToRead msgAlert={this.msgAlert} user={user} />
           )} />
-          <Route user={user} exact path='/show-books' render={() => (
-            <ShowBooks msgAlert={this.msgAlert} user={user} />
+          <Route user={user} path='/danny-meadow' render={() => (
+            <DannyMeadow msgAlert={this.msgAlert} user={user} />
+          )} />
+          <Route user={user} path='/peter' render={() => (
+            <Peter msgAlert={this.msgAlert} user={user} />
+          )} />
+          <Route user={user} path='/piper' render={() => (
+            <Piper msgAlert={this.msgAlert} user={user} />
+          )} />
+          <Route user={user} path='/dragon' render={() => (
+            <Dragon msgAlert={this.msgAlert} user={user} />
+          )} />
+          <Route user={user} path='/christmas' render={() => (
+            <Christmas msgAlert={this.msgAlert} user={user} />
           )} />
         </main>
       </Fragment>

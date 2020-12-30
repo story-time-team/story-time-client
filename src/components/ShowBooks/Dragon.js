@@ -1,16 +1,16 @@
 import './ShowBooks.scss'
 import React from 'react'
-import mouse from './pdfBooks/The-Adventures-of-Danny-Meadow-Mouse.pdf'
+import dragon from './pdfBooks/The-Reluctant-Dragon.pdf'
 // import AllPages from "./AllPages.js"
 import SinglePage from './Single-Page.js'
 
-function ShowBooks() {
+function Dragon() {
   return (
     <div className='pdf-viewer'>
-      <SinglePage pdf={mouse} />
+      <SinglePage pdf={dragon} />
     </div>
   )
 
 }
 
-export default ShowBooks
+export default Dragon
